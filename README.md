@@ -1,3 +1,7 @@
+# Portfolio
+
+This is my first attempt to make a portfolio Website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
