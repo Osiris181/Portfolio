@@ -1,0 +1,74 @@
+.bg {
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  height: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  font-weight: 600;
+  display: flex;
+  /* background-color: black; */
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding-top: 5px;
+}
+
+.navbar a {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.kanan {
+  display: flex;
+}
+
+.aboutnav,
+.portfolionav,
+.contactnav {
+  padding-left: 40px;
+}
+
+.profile {
+  font-size: 75px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-left {
+  margin-top: 10px;
+}
+
+#pt {
+  font-weight: 700;
+}
+
+.profile-contain {
+  margin-bottom: 10px;
+}
+
+.student {
+  font-size: 55px;
+}
+
+.sunib {
+  font-weight: 700;
+}
+
+#binus {
+  color: #070707;
+}
+#univ {
+  color: #008ed3;
+}
+
+#foto {
+  width: 100%;
+  height: auto;
+  display: block;
+}
