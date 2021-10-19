@@ -4,10 +4,10 @@ import "./PortfolioStyle.css";
 export default function Portfolio() {
   return (
     <div className="portfolio">
-      <div className="container">
+      <div className="port-container">
         <div class="portfolio-header">Portfolio</div>
         <div className="portfolio-section">
-          <div className="portfolio-content reverse">
+          <div className="portfolio-content normal-wrap">
             <div className="portfolio-words">
               <div className="portfolio-name">Habitilist</div>
               <div className="portfolio-desc">
@@ -25,7 +25,10 @@ export default function Portfolio() {
                 <p>Made with ASP.NET (C#) and CSS</p>
               </div>
               <div className="external-link">
-                <a href="">
+                <a
+                  href="https://github.com/Osiris181/Habitilist"
+                  target="_blank"
+                >
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
               </div>
@@ -37,8 +40,8 @@ export default function Portfolio() {
         </div>
 
         <div className="portfolio-section">
-          <div className="portfolio-content normal-wrap">
-            <div className="portfolio-img">
+          <div className="portfolio-content reverse">
+            <div className="portfolio-img init">
               <img src="./store-del-luna.png" alt="store-del-luna" />
             </div>
             <div className="portfolio-words luna">
@@ -47,15 +50,12 @@ export default function Portfolio() {
                 Luna
               </div>
               <div className="portfolio-desc hci">
-                <p>
-                  A final Human and Computer Interaction project created by me,
-                  Reyhan Firmanda, Hubert Louie. Store Del Luna is an online
-                  K-Pop store that sells albums and merchandises of K-Pop
-                  artists. We tried to make this website with a
-                  <b> clean and simple </b>
-                  look to be a <b>user friendly</b> and <b>easy to use </b>
-                  website.
-                </p>
+                A final Human and Computer Interaction project created by me,
+                Reyhan Firmanda, Hubert Louie. Store Del Luna is an online K-Pop
+                store that sells albums and merchandises of K-Pop artists. We
+                tried to make this website with a<b> clean and simple </b>
+                look to be a <b>user friendly</b> and <b>easy to use </b>
+                website.
               </div>
               <div className="made-with-hci">
                 <p>Made with HTML, CSS, and Javascript</p>
@@ -77,15 +77,18 @@ export default function Portfolio() {
                   href="https://osiris181.github.io/Store-Del-Luna/"
                   target="_blank"
                 >
-                  <img src="./open-new-window.png" alt="" />
+                  <img src="https://img.icons8.com/fluency-systems-regular/144/000000/external-link.png" />
                 </a>
               </div>
+            </div>
+            <div className="portfolio-img mob">
+              <img src="./store-del-luna.png" alt="store-del-luna" />
             </div>
           </div>
         </div>
 
-        <div className="portfolio-section">
-          <div className="portfolio-content reverse">
+        <div className="portfolio-section down">
+          <div className="portfolio-content normal-wrap">
             <div className="portfolio-words">
               <div className="portfolio-name">Event Hub</div>
               <div className="portfolio-desc">

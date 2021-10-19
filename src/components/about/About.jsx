@@ -3,7 +3,7 @@ import "./aboutStyle.css";
 
 export default function about() {
   return (
-    <div class="about container">
+    <div class="about container-about">
       <div class="about-left">
         <img src="./about-img (2).png" alt="" id="foto-pt" />
       </div>

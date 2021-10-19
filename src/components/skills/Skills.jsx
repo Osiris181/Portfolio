@@ -58,7 +58,7 @@ export default function Skills() {
 
   return (
     <div className="skillsbg">
-      <div class="container">
+      <div class="container-skills">
         <div id="skill-header">Skills</div>
         <div class="skills">
           <div class="front-end">

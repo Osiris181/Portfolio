@@ -2,10 +2,7 @@ import "./ProfilStyle.css";
 
 export default function profil() {
   return (
-    <div
-      className="bg container-fluid"
-      style={{ backgroundImage: "url(/MainBgCobaLagi.png)" }}
-    >
+    <div className="bg-profil">
       <div className="navbar container">
         <div className="kiri">
           <div className="homenav">
