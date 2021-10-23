@@ -28,6 +28,12 @@
   font-size: 18px;
   margin-right: 42px;
   color: #e1e1e1;
+  transition: ease-in-out 0.3s;
+}
+
+.links a:hover {
+  color: #ffffff;
+  transition: ease-in-out 0.3s;
 }
 
 #copyright {

@@ -33,6 +33,18 @@
   padding-left: 40px;
 }
 
+.kanan a,
+.kiri a {
+  transition: ease-in-out 0.3s;
+}
+
+.kanan a:hover,
+.kiri a:hover {
+  /* color: #2f4585; */
+  color: #008ed3;
+  transition: ease-in-out 0.3s;
+}
+
 .profile {
   font-size: 75px;
   color: #ffffff;

@@ -4,6 +4,7 @@
   height: auto;
   background-size: 100%;
   background-repeat: no-repeat;
+  padding-top: 70px;
 }
 
 #small {
@@ -15,6 +16,16 @@
   font-weight: bold;
   font-size: 100px;
   text-align: center;
+  color: #fd7a60;
+}
+
+@keyframes shad-anim {
+  0% {
+    background-position: 0 0;
+  }
+  0% {
+    background-position: 100% -100%;
+  }
 }
 
 .portfolio-section {
@@ -45,6 +56,8 @@
   font-weight: bold;
   font-size: 80px;
   margin-top: 70px;
+  color: #e24273;
+  text-shadow: -1px -1px 0px #6b6bce, 3px 3px 0px #6b6bce, 6px 6px 0px #6b6bce;
 }
 
 .portfolio-desc {
@@ -131,9 +144,6 @@
   .down {
     margin-bottom: 160px;
   }
-  .portfolio-header {
-    padding-top: 60px;
-  }
   .portfolio-desc {
     width: inherit;
   }
@@ -196,6 +206,9 @@
   } */
 
   .portfolio {
+    padding-top: 40px;
+  }
+  .portfolio {
     background-image: url("./portfolio-bg-mobile.png");
   }
 
@@ -248,6 +261,9 @@
   }
   .mob {
     display: inline-block;
+  }
+  .portfolio {
+    padding-top: 30px;
   }
 }
 

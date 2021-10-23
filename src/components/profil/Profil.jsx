@@ -2,22 +2,22 @@ import "./ProfilStyle.css";
 
 export default function profil() {
   return (
-    <div className="bg-profil">
+    <div className="bg-profil" id="profile-page">
       <div className="navbar container">
         <div className="kiri">
           <div className="homenav">
-            <a href="">PT</a>
+            <a href="#profile-page">PT</a>
           </div>
         </div>
         <div className="kanan">
           <div className="aboutnav">
-            <a href="">About</a>
+            <a href="#about-page">About</a>
           </div>
           <div className="portfolionav">
-            <a href="">Portfolio</a>
+            <a href="#portfolio-page">Portfolio</a>
           </div>
           <div className="contactnav">
-            <a href="">Contact</a>
+            <a href="#contact-page">Contact</a>
           </div>
         </div>
       </div>

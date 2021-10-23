@@ -9,7 +9,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
-
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <title>Patrick Thelysander's Portfolio</title>
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -38,9 +38,56 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="app.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
     <div id="root"></div>
+    <a id="button"></a>
   </body>
 </html>
+
+<script>
+  var btn = $("#button");
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass("show");
+    } else {
+      btn.removeClass("show");
+    }
+  });
+
+  btn.on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, "200");
+  });
+</script>
+
+<!-- <button onclick="goTop()" id="topBtn">Top</button> -->
+
+<!-- <script>
+    var top = document.getElementById("topBtn");
+    window.scroll = function () {
+      isScroll();
+    };
+    function isScroll() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        top.style.display = "block";
+      } else {
+        top.style.display = "none";
+      }
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    }
+  </script> -->

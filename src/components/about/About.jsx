@@ -3,12 +3,14 @@ import "./aboutStyle.css";
 
 export default function about() {
   return (
-    <div class="about container-about">
+    <div class="about container-about" id="about-page">
       <div class="about-left">
         <img src="./about-img (2).png" alt="" id="foto-pt" />
       </div>
       <div className="about-right">
-        <h1 id="about-heading">About Me</h1>
+        <h1 id="about-heading">
+          About <span id="accent">Me</span>
+        </h1>
         <div className="about-content">
           <p>
             Currently a 5th semester student in Bina Nusantara University,

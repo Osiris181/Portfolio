@@ -4,12 +4,15 @@
 
 .about {
   display: flex;
-  margin-top: 126px;
+  padding-top: 126px;
   margin-bottom: 150px;
   justify-content: space-between;
   align-items: center;
 }
 
+#accent {
+  color: #fd7a60;
+}
 .about-left {
   margin-right: 20px;
 }
@@ -44,7 +47,7 @@
     margin: 0 60px;
   }
   .about {
-    margin-top: 60px;
+    padding-top: 60px;
     margin-bottom: 70px;
   }
 }
@@ -54,7 +57,7 @@
     margin: 0 30px;
   }
   .about {
-    margin-top: 60px;
+    padding-top: 60px;
     margin-bottom: 70px;
   }
   .about-content {
@@ -67,7 +70,7 @@
     margin: 0 20px;
   }
   .about {
-    margin-top: 60px;
+    padding-top: 60px;
     margin-bottom: 70px;
   }
   .about-content {
@@ -83,7 +86,7 @@
     margin: 0 15px;
   }
   .about {
-    margin-top: 20px;
+    padding-top: 20px;
     margin-bottom: 30px;
   }
   .about-content {

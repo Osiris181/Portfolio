@@ -3,7 +3,7 @@ import "./PortfolioStyle.css";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio-page">
       <div className="port-container">
         <div class="portfolio-header">Portfolio</div>
         <div className="portfolio-section">

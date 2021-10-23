@@ -4,7 +4,7 @@ import "./ContactStyle.css";
 export default function Contact() {
   return (
     <div className="bg">
-      <div className="contact-container">
+      <div className="contact-container" id="contact-page">
         <div id="touch">GET IN TOUCH</div>
         <div id="email">patrickthelysander@gmail.com</div>
 
