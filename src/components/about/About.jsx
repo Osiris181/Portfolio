@@ -13,14 +13,13 @@ export default function about() {
         </h1>
         <div className="about-content">
           <p>
-            Currently a 5th semester student in Bina Nusantara University,
+            Currently a Fresh Graduate of Bina Nusantara University,
             majoring in Computer Science, specifically in Software Engineering.
             I love to discover and learn new things from others. I also give a
             satisfactory and active performance in every teamwork.
             <br />
             <br />
-            I’m currently focusing on front-end development, web app development
-            (ASP.NET), and UI/UX design.
+            I'm currently focusing on Application and Web App Development.
           </p>
         </div>
       </div>

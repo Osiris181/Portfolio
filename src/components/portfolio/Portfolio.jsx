@@ -6,6 +6,39 @@ export default function Portfolio() {
     <div className="portfolio" id="portfolio-page">
       <div className="port-container">
         <div class="portfolio-header">Portfolio</div>
+
+        <div className="portfolio-section">
+          <div className="portfolio-content reverse">
+            <div className="portfolio-img init">
+              <img src="./careish.png" alt="careish" />
+            </div>
+            <div className="portfolio-words luna">
+              <div className="portfolio-name">
+                Careish
+              </div>
+              <div className="portfolio-desc hci">
+                A final project as a requirement for me and my friend, Akbar Ramadhan Yusri to be able to finish our thesis. <b>Careish</b> is a web app based application that was created 
+                as a modern approach to the home care service in Indonesia. Previously, ordering a home care service does take a bit of effort starting from the ordering process using WhatsApp or phone, then searching for suitable nurses for the customer through the customer service, 
+                followed by assigning the nurses to the customer. These are the steps that we are trying to eliminate by replacing them with <b>Careish</b>.
+              </div>
+              <div className="made-with-hci">
+                <p>Made with Laravel, Tailwind CSS, MySQL, and Javascript</p>
+              </div>
+              <div className="external-link">
+                <a
+                  href="https://github.com/ramaakbar/careish"
+                  target="_blank"
+                >
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+              </div>
+            </div>
+            <div className="portfolio-img mob">
+              <img src="./careish.png" alt="careish" />
+            </div>
+          </div>
+        </div>
+
         <div className="portfolio-section">
           <div className="portfolio-content normal-wrap">
             <div className="portfolio-words">

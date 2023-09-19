@@ -3,7 +3,7 @@ import "./ProfilStyle.css";
 export default function profil() {
   return (
     <div className="bg-profil" id="profile-page">
-      <div className="navbar container">
+      <div className="container navbar">
         <div className="kiri">
           <div className="homenav">
             <a href="#profile-page">PT</a>
@@ -28,9 +28,10 @@ export default function profil() {
           <div className="profile-contain" id="pt">
             Patrick Thelysander!
           </div>
-          <div className="student">Computer Science Student at</div>
+          <div className="student">Computer Science Fresh Graduate</div>
           <div className="student sunib">
-            <span id="binus">BINUS </span>
+            <span style={{fontWeight: "normal"}}>From</span> 
+            <span id="binus"> BINUS </span>
             <span id="univ">University</span>
           </div>
         </div>
